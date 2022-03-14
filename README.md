@@ -2,12 +2,11 @@
 - [uncomment this line](https://github.com/hc-gitops-recipe-demo/multi-tenancy-gitops/blob/master/0-bootstrap/single-cluster/1-infra/kustomization.yaml#L23)
 - [Templat.tf](https://github.com/IBM/cp4d-deployment/blob/master/common-modules/cpd/templates.tf)
 
+
 <detalils>
     <summary>db2aaservice-cp4d-operator</summary>
-  
-       ### db2aaservice Cloud Pak for Data operator
-  
-        ```yaml
+    ### db2aaservice Cloud Pak for Data operator
+    ```yaml
         #Db2aaservice
         data "template_file" "db2aaservice_sub" {
           template = <<EOF
@@ -40,5 +39,6 @@
             license: "Enterprise"
         EOF
         }
-        ```
-</details>
+    ```
+
+    </details>
