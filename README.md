@@ -6,9 +6,8 @@
 <detalils>
     <summary>db2aaservice-cp4d-operator</summary>
     
-    > db2aaservice Cloud Pak for Data operator
-    
-    ```yaml
+  ## db2aaservice Cloud Pak for Data operator
+      ```yaml
         #Db2aaservice
         data "template_file" "db2aaservice_sub" {
           template = <<EOF
@@ -41,6 +40,6 @@
             license: "Enterprise"
         EOF
         }
-    ```
+      ```
 
     </details>
